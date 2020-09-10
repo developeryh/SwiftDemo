@@ -7,12 +7,19 @@
 
 import UIKit
 
+@objc public class ss: NSObject {
+    @objc
+    public func vv () {
+        
+    }
+}
+
 @objc public class BCViewController: UIViewController {
 
     @objc public func aa () {
         print("aa")
     }
-    @objc public override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
