@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+public func firstFun () {
+    print("firstFun")
+}

@@ -14,5 +14,3 @@ FOUNDATION_EXPORT double SwiftDemoCarthageSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char SwiftDemoCarthageSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SwiftDemoCarthageSDK/PublicHeader.h>
-
-#import <SwiftDemoCarthageSDK/SwiftDemoCarthageSDK.h>

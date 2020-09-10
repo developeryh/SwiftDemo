@@ -23,10 +23,11 @@
 		AEA7D8E52509F64000F03A31 /* SwiftDemoCarthageSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA7D8D02509F64000F03A31 /* SwiftDemoCarthageSDK.framework */; };
 		AEA7D8E62509F64000F03A31 /* SwiftDemoCarthageSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEA7D8D02509F64000F03A31 /* SwiftDemoCarthageSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AEA7D8F12509F6A300F03A31 /* Three.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7D8F02509F6A300F03A31 /* Three.swift */; };
-		AEA7D8F32509F6CF00F03A31 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7D8C72509F60500F03A31 /* First.swift */; };
+		AEA7D8F32509F6CF00F03A31 /* First.swift in Headers */ = {isa = PBXBuildFile; fileRef = AEA7D8C72509F60500F03A31 /* First.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA7D8F42509F6CF00F03A31 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7D8C92509F60E00F03A31 /* Second.swift */; };
 		AEA7D8F52509F6CF00F03A31 /* Three.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7D8F02509F6A300F03A31 /* Three.swift */; };
 		AEA7D8F72509FA3700F03A31 /* Four.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7D8F62509FA3700F03A31 /* Four.swift */; };
+		AEE6765A250A0B2C006E740D /* BCViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = AEE67659250A0B2C006E740D /* BCViewController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		AEA7D8E12509F64000F03A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEA7D8F02509F6A300F03A31 /* Three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three.swift; sourceTree = "<group>"; };
 		AEA7D8F62509FA3700F03A31 /* Four.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Four.swift; sourceTree = "<group>"; };
+		AEE67659250A0B2C006E740D /* BCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				AEA7D8D22509F64000F03A31 /* SwiftDemoCarthageSDK.h */,
+				AEE67659250A0B2C006E740D /* BCViewController.swift */,
 				AEA7D8F62509FA3700F03A31 /* Four.swift */,
 				AEA7D8D32509F64000F03A31 /* Info.plist */,
 			);
@@ -235,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEA7D8E22509F64000F03A31 /* SwiftDemoCarthageSDK.h in Headers */,
+				AEE6765A250A0B2C006E740D /* BCViewController.swift in Headers */,
+				AEA7D8F32509F6CF00F03A31 /* First.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +464,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA7D8F32509F6CF00F03A31 /* First.swift in Sources */,
 				AEA7D8F72509FA3700F03A31 /* Four.swift in Sources */,
 				AEA7D8F42509F6CF00F03A31 /* Second.swift in Sources */,
 				AEA7D8F52509F6CF00F03A31 /* Three.swift in Sources */,
