@@ -28,6 +28,7 @@
 		AEA7D8F52509F6CF00F03A31 /* Three.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7D8F02509F6A300F03A31 /* Three.swift */; };
 		AEA7D8F72509FA3700F03A31 /* Four.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7D8F62509FA3700F03A31 /* Four.swift */; };
 		AEE6765A250A0B2C006E740D /* BCViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = AEE67659250A0B2C006E740D /* BCViewController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE6765C250A1456006E740D /* SSFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE6765B250A1456006E740D /* SSFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		AEA7D8F02509F6A300F03A31 /* Three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three.swift; sourceTree = "<group>"; };
 		AEA7D8F62509FA3700F03A31 /* Four.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Four.swift; sourceTree = "<group>"; };
 		AEE67659250A0B2C006E740D /* BCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCViewController.swift; sourceTree = "<group>"; };
+		AEE6765B250A1456006E740D /* SSFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				AEA7D8D22509F64000F03A31 /* SwiftDemoCarthageSDK.h */,
+				AEE6765B250A1456006E740D /* SSFile.swift */,
 				AEE67659250A0B2C006E740D /* BCViewController.swift */,
 				AEA7D8F62509FA3700F03A31 /* Four.swift */,
 				AEA7D8D32509F64000F03A31 /* Info.plist */,
@@ -465,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEA7D8F72509FA3700F03A31 /* Four.swift in Sources */,
+				AEE6765C250A1456006E740D /* SSFile.swift in Sources */,
 				AEA7D8F42509F6CF00F03A31 /* Second.swift in Sources */,
 				AEA7D8F52509F6CF00F03A31 /* Three.swift in Sources */,
 			);
@@ -652,7 +656,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -672,7 +676,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -767,6 +771,7 @@
 		AEA7D8E82509F64000F03A31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -775,7 +780,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SwiftDemoCarthageSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -794,6 +799,7 @@
 		AEA7D8E92509F64000F03A31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -802,7 +808,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SwiftDemoCarthageSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -7,13 +7,12 @@
 
 import UIKit
 
-public static func aa () {
-    print("aa")
-}
+@objc public class BCViewController: UIViewController {
 
-class BCViewController: UIViewController {
-
-    override func viewDidLoad() {
+    @objc public func aa () {
+        print("aa")
+    }
+    @objc public override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

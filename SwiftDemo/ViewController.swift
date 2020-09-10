@@ -6,12 +6,12 @@
 //
 
 import UIKit
+import SwiftDemoCarthageSDK
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        SSS.init()
         // Do any additional setup after loading the view.
     }
 
